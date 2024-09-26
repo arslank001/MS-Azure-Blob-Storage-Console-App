@@ -11,7 +11,7 @@ class Program
     private const string blobName = "example.txt"; // Name of the blob you want to upload
     private const string filePath = "D:\\\\MS Azure Implementation\\\\blobe_storage_upload_files\\example.txt"; // Path of the file on your local system
     
-
+    
     static async Task Main(string[] args)
     {
         // Upload a Blob
