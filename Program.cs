@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 class Program
 {
-    private const string connectionString = "DefaultEndpointsProtocol=https;AccountName=myblobestorage2024;AccountKey=E1gEFLezpKM6qiRo6vroddygISudYhgopz9bq7boZ5G90JxCAKhvRNWBfYtVLGvzxtsdO/I7LHN++AStG8Ou1Q==;EndpointSuffix=core.windows.net"; // Add your Azure Blob Storage connection string here
+    private const string connectionString = "AZURE_BLOB_CONNECTION_STRING"; // Add your Azure Blob Storage connection string here
     private const string containerName = "myimages"; // Your container name
     private const string blobName = "example.txt"; // Name of the blob you want to upload
     private const string filePath = "D:\\\\MS Azure Implementation\\\\blobe_storage_upload_files\\example.txt"; // Path of the file on your local system
